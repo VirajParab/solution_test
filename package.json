@@ -1,0 +1,14 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "A simple shopping cart functionality in JavaScript",
+  "main": "shoppingCart.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}

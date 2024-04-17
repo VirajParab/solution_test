@@ -28,6 +28,7 @@ class ShoppingCart {
     getTotalPrice() {
         return this.items.reduce((total, item) => total + item.price, 0);
     }
+     
 
 }
 

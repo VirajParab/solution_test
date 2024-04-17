@@ -11,6 +11,7 @@ class ShoppingCart {
         if (!item || typeof item !== 'object' || !('name' in item) || !('price' in item) || isNaN(item.price) || item.price <= 0 || !Number.isInteger(quantity) || quantity <= 0) {
             throw new Error('Invalid item or quantity');
         }
+         
         for (let i = 0; i < quantity; i++) {
             this.items.push(item);
         }

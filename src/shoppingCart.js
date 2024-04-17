@@ -9,4 +9,5 @@ class ShoppingCart {
     getTotalPrice() {
     }
 }
+
 module.exports = ShoppingCart;
